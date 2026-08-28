@@ -7,7 +7,7 @@ app.use(cors());
 
 app.get('/',(req,res) => {
     res.json({
-        date: new Date().toLocaleDateString('pt-BR'),
+        date: new Date().toLocaleString('pt-BR'),
         status: 'API Rodando'
     })
 })
